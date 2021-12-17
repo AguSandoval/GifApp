@@ -11,7 +11,11 @@ const App = () => {
 
     return (
         <div>
-            <h2>GifExpertApp</h2>
+            <h2>Giphynder App</h2>
+            <p>
+                Simple Gif App developed with React(Typescript) only for
+                studying purposes, feel free to use it as you want.
+            </p>
             <CategoryAdd setCategories={setCategories} />
             <hr />
             <ol>

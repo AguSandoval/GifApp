@@ -6,7 +6,7 @@ const GifGridItem: React.FC<{ title: string; url: string; id: string }> = ({
     id,
 }) => {
     return (
-        <div className="card">
+        <div className="card animate__animated animate__fadeIn">
             <img src={url} alt={title} />
             <p>{title}</p>
         </div>
